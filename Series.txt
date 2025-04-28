@@ -1,0 +1,33 @@
+Fibbonacci series
+output :- First 10 fibbonacci numbers
+
+
+let number
+echo "Enter the fibbonacci number:"
+read number
+a=0
+b=1
+for((i=0;i<number;i++))
+do
+echo $a
+c=$(($a+$b))
+a=$b
+b=$c
+done
+
+
+
+Factorial
+output :- Factorial of 5 is :120
+
+echo ".........Factorial........."
+echo "Enter the number"
+read num
+fact =1
+for((a=1;a<=num;a++))
+do
+fact=$(($fact*$a))
+done
+echo "Factorial of $num is : $fact"
+
+Multiples of 3 between 1 and 50
